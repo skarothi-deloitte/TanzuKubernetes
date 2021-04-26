@@ -66,11 +66,16 @@ variable "Storage_Class" {
 variable "subscription_id" {
   description = "Azure Subscription ID:"
   type        = string
-  default     = "76d8ef1a-d633-49dc-addd-fd51b8ea9b2c"
+  default     = ""
 }
 variable "tenant_id" {
   description = "Azure Tenant ID:"
   type        = string
-  default     = "36da45f1-dd2c-4d1f-af13-5abe46b99921"
+  default     = ""
 }
 
+variable "config_path" {
+  description = "Configuration path for kuberentes"
+  type        = string
+  default     = ""
+}
