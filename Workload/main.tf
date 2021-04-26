@@ -1,7 +1,3 @@
-provider "kubernetes-alpha" {
-  config_path = "~/.kube/config" // path to kubeconfig
-
-}
 resource "kubernetes_manifest" "tanzukubernetes_workloadcluster" {
   provider = kubernetes-alpha
   manifest = {
