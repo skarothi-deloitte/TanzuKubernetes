@@ -1,7 +1,8 @@
 
 # Configuring Azure backend for the terraform state file 
 # Provide your environment specific variable values in this backend block
-# you can save the following as backend.tf file in a given directory
+# Save this file in a given directory with backend.tf (or) with any specific name as per your orginzations standards. 
+
 # terraform init
 # terraform apply
 
@@ -19,7 +20,7 @@ terraform {
 
 # Use following module for creating workload cluster in TKG
 # provide your environment specific variable values for the resources
-# you can save the following as env_name.tf file in a given directory
+# Save this file in a given directory with env_name.tf (or) with any specific name as per your orginzations standards. 
 
 module "WLC" {
   source = "git::https://github.com/skarothi-deloitte/TanzuKubernetes.git//Workload"
