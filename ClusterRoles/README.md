@@ -7,7 +7,10 @@
 # terraform apply
 
 module "CR" {
-  source = "git::https://github.com/skarothi-deloitte/TanzuKubernetes.git//ClusterRoles"
+
+source = "location of your git repo"
+# example: source = "git::https://github.com/TanzuKubernetes.git//ClusterRoles"
+
 }
 
 
