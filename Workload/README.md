@@ -2,6 +2,9 @@
 # Configuring Azure backend for the terraform state file 
 # Provide your environment specific variable values in this backend block
 # you can save the following as backend.tf file in a given directory
+# terraform init
+# terraform apply
+
 
 terraform {
   backend "azurerm" {
