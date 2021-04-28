@@ -4,10 +4,10 @@
 
 terraform {
   backend "azurerm" {
-    resource_group_name  = "AZRG-USE2-CON-SBXCHUBB-SBX-001"
-    storage_account_name = "chubbtest1"
+    resource_group_name  = "AZ_Resource_Group_Name"
+    storage_account_name = "storagexxxxxx"
     container_name       = "dev2021"
-    key                  = "dev3_cluster.tfstate"
+    key                  = "clusterxxxx.tfstate"
   }
 }
 
