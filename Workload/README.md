@@ -23,8 +23,8 @@ terraform {
 # Save this file in a given directory with env_name.tf (or) with any specific name as per your orginzations standards. 
 
 module "WLC" {
-  source = "git::https://github.com/skarothi-deloitte/TanzuKubernetes.git//Workload"
-
+  source = "location of your git repo"
+  # example: source = "git::https://github.com/TanzuKubernetes.git//Workload"
 
   config_path              = "~/.kube/config"
   subscription_id          = "AZ subscription ID"
